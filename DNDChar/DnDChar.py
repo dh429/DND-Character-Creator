@@ -3,7 +3,6 @@ from random import randint
 from StrengthMod import StrengthModi
 from IntelMod import IntelModi
 
-
 """
 The generator should do the following:
     Roll basic stats
@@ -71,6 +70,5 @@ def ClassRace():
 Stats()
 print(StatList)
 ClassRace()
-
 StrengthModi(StatList)
 IntelModi(StatList)
